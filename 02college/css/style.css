@@ -45,7 +45,7 @@ padding-left: 60px;}
 /*contents*/
 #contents{
 	_height: 1300px;/*나중에 높이삭제*/
-	background-image:url(../images/bg_dot.png
+	background-image:url(../images/dot.png
 		),url(../images/main_bg.jpg);
 	background-repeat:repeat,no-repeat;
 	background-position:center;
