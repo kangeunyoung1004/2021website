@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*header*/
-#header{background:white; height:180px;}
+#header{background:white;height:180px;}
 .util_menu_wrap{background: #0044AF;}
 .util_menu{width: 1200px;margin: 0 auto}
 .util_menu .left{float: left;}
@@ -35,8 +35,7 @@
 /*contents*/
 #contents{
 	_height: 1300px;/*나중에 높이삭제*/
-	background-image:url(../images/dot.png
-		),url(../images/main_bg.jpg);
+	background-image:url(../images/dot.png),url(../images/main_bg.jpg);
 	background-repeat:repeat,no-repeat;
 	background-position:center;
 	background-size:auto,cover;
