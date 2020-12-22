@@ -4,7 +4,7 @@
 div.utilWrap{border-bottom: 1px solid #ccc;margin-bottom: 10px;}
 div.util{width: 980px;margin: 0 auto;_background-color:skyblue;}
 ul.utilMenu{margin-left: auto;width: 280px;}
-ul.utilMenu li{float:left;position: relative;}
+ul.utilMenu li{float:left;position: relative;} 
 ul.utilMenu li:after{
 	content:"";display: block;width: 1px;height: 10px;
 	background-color: #f00;position: absolute;right: 0;top:10px;

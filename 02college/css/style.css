@@ -29,7 +29,7 @@
 .util_menu .right li:first-child{line-height:40px;padding-right: 10px;}
 .util_menu .right li:nth-child(2){padding-top:10px;}
 .util_menu .right li:last-child a{padding-right:0;}
-
+.menuWrap {}
 
 
 /*contents*/
