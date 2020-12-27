@@ -33,7 +33,7 @@
 .gnb{background: #fff;width: 1200px;margin:0 auto;position: relative;}
 .gnb .logo{float: left;position: absolute;left: 0;top: 0;}
 .gnb .menu{float: right;padding: 30px;}
-.gnb .menu li{float: left; width: 120px;text-align: left;}
+.gnb .menu li{float: left; width: 120px;text-align: left; }
 
 
 /*contents*/
@@ -46,6 +46,9 @@
 	padding-bottom:100px;
 
 }
+.section .title .textWrap{}
+.section .title h2{color: #fff;}
+
 #contents .title{width: 1200px;height: 260px;background:transparent;margin: 0 auto; position: relative;}
 #contents .container{width: 1200px;margin: 0 auto;background:#fff;}
 #contents .container>ul>li{float: left;width:25%;height: 225px;}
