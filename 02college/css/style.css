@@ -51,7 +51,12 @@
 #contents .title h3{color: white;font-size: 60px;}
 #contents .title{width: 1200px;height: 260px;background:transparent;margin: 0 auto; position: relative;}
 #contents .iconWrap{float:right;width: 502px;margin-top: 70px;}
-#contents li{float: left;width: 125.5px;color: white;}
+#contents .iconWrap li{float: left;width: 125.5px;color: white;text-align: center;}
+
+#container .slider li{position: relative;}
+#container .slider .sliderTxt{position: absolute;width: 400px;top:50px;left:50px;}
+#container .slider .sliderTxt p{}
+#contents .sliderTxt p{font-size:50px;color:#1650bb;}
 #contents .container{width: 1200px;margin: 0 auto;background:#fff;}
 #contents .container>ul>li{float: left;width:25%;height: 225px;}
 #contents .container>ul>li:nth-child(2n){background:pink;}
