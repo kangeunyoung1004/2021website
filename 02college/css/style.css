@@ -33,7 +33,7 @@
 .gnb{background: #fff;width: 1200px;margin:0 auto;position: relative;}
 .gnb .logo{float: left;position: absolute;left: 0;top: 0;}
 .gnb .menu{float: right;padding: 30px;}
-.gnb .menu li{float: left; width: 120px;text-align: left; }
+.gnb .menu li{float: left; width: 120px;text-align: left;}
 
 
 /*contents*/
@@ -53,17 +53,27 @@
 #contents .iconWrap{float:right;width: 502px;margin-top: 70px;}
 #contents .iconWrap li{float: left;width: 125.5px;color: white;text-align: center;}
 
-#container .slider li{position: relative;}
-#container .slider .sliderTxt{position: absolute;width: 400px;top:50px;left:50px;}
-#container .slider .sliderTxt p{}
-#contents .sliderTxt p{font-size:50px;color:#1650bb;}
+.container .slider li{position: relative;}
+.container .slider .sliderTxt{position: absolute;width: 400px;top:55px;left:75px;}
+#contents .sliderTxt p{font-size:65px;color:#1650bb;}
+#contents .sliderTxt span{font-weight: bold;}
 #contents .container{width: 1200px;margin: 0 auto;background:#fff;}
-#contents .container>ul>li{float: left;width:25%;height: 225px;}
+#contents .container>ul>li{float: left;width:25%;height: 225px;position:relative;}
+#contents .container>ul>li .txtbox1{background: #192d4e;width: 168px;margin-top: 20px;margin-left:10px;}
+#contents .container ul li a{color: white;line-height: 40px;display: block;text-align: center;} 
+
+.container .ptxt01{top:65px;left:45px;position: absolute;color:white;font-size:36px;}
+.container .ptxt02{position: absolute;top:50%;left: 45px;color:white;font-size:18px;}
+.container .ptxt01 span{font-weight: bold;}
+.container .txtbox2{background: #192d4e;position: absolute; bottom:80px;left: 45px;width: 168px;border: 1px solid #ffff;opacity:0.6;}
+.container .txtbox6{position: absolute;left: 50%;transform:translate(-50%);background: #000;margin-bottom: 0;
+	bottom: 30px;margin: 0 auto;width: 100%;height:45px;} 
+.container .txtbox6 p{color:white;text-align: center;padding: 10px;}	
 #contents .container>ul>li:nth-child(2n){background:pink;}
 #contents .container>ul>li:nth-child(1){width: 75%;height: 450px;background:gray;}
 #contents .container>ul>li:nth-child(2){height: 450px;}
-#contents .container>ul>li:nth-child(3){}
-#contents .container>ul>li:nth-child(4){}
+#contents .container>ul>li:nth-child(3){background: #00163b;}
+#contents .container>ul>li:nth-child(4){background: #1651b7;}
 #contents .container>ul>li:nth-child(5){}
 #contents .container>ul>li:nth-child(6){}
 #contents .container>ul>li:nth-child(7){}
