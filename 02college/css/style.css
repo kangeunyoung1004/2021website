@@ -31,11 +31,12 @@
 .util_menu .right li:last-child a{padding-right:0;}
 
 .gnb{background: #fff;width: 1200px;margin:0 auto;position: relative;}
-.gnb .logo{float: left;position: absolute;left: 0;top: 0;}
-.gnb .menu{float: right;padding: 30px;}
-.gnb .menu li{float: left; width: 120px;text-align: left;}
-
-
+.gnb .logo{float: left;position: absolute;left: 0;top:40px;}
+.gnb .menu{float: right;position: absolute;right: 30px;top:30px;
+		width:700px;bottom: 80px;}
+.gnb .menu li{float: left; width: 120px;text-align: left;font-size:20px;
+		font-weight: bold;}
+.gnb .menu li>a{color:gray;}
 /*contents*/
 #contents{
 	_height: 1300px;/*나중에 높이삭제*/
