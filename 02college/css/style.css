@@ -68,22 +68,30 @@
 .container .txtbox2{background: #192d4e;position: absolute; bottom:80px;left: 45px;width: 168px;border: 1px solid #ffff;opacity:0.6;}
 .container .txtbox li{}
 .container .iconbox{margin:0 auto;width:198.34px;}
-.container .iconbox li{float: left;text-align:center;margin-top:20px;margin-right:20px}
+.container .iconbox li{width: 33.3%;float: left;text-align:center;margin-top:20px;margin-right:25px;}
 .container .ptxt03{color:white;margin-left:20px;font-size: 20px;margin-top:30px;font-weight: bold;}
 .container .iconbox{color:white;width:198.34px;margin: 0 auto;}
 .container .iconbox li{margin-right:10px;width:59.44px;font-size:13px;}
 .container .iconbox li:last-child{margin-right:0;}
 .container .box4{}
-.container .ptxt04{color:white;margin-top:25px;margin-left:20px;font-weight: bold;font-size:20px;} 
+.container .ptxt04{color:white;margin-top:10px;margin-left:20px;font-weight: bold;font-size:20px;} 
 .container .txt3 {color:white;margin-left: 20px;font-size: 13px;width:170px;height: 110px;float: left;}
 .container .txt3:before{content:"";display: block;width: 260px;height: 2px;background:white;margin-bottom: 20px;margin-top: 10px;}
 .container .txt3 p{font-size: 13px;margin-bottom:0;}
 .container .ptxt05{width: 110px;height: 110px;float: right;font-size: 13px;margin-top:30px;}
 .container .ptxt05 p{color:white;text-align: center;}
+.container .txt4{margin-left:15px;float: left;}
+.container .txt4 img{margin-top:15px;display: block;}
+.container .ptxt06{font-weight: bold;font-size: 22px;margin-top:25px;}
+.container .ptxt07{float:right;width: 145px;font-size:14px;margin-top: 75px;margin-right:10px;}
+
 .container .txtbox6{position: absolute;left: 50%;bottom:0;transform:translate(-50%);background: #000;
 				width: 100%;height:45px;opacity: 0.8} 
-.container .txtbox6 p{color:white;text-align: center;padding: 10px;}	
-#contents .container>ul>li:nth-child(2n){background:pink;}
+.container .txtbox6 p{color:white;text-align: center;padding: 10px;font-size:17px;}	
+.container .ptxt08{position:relative;}
+.container .ptxt08 p{color:orange;font-size: 30px;position:absolute;width: 380px;top:0;left:0px;}
+.container .txtbox7{}
+#contents .container>ul>li:nth-child(2n){_background:pink;}
 #contents .container>ul>li:nth-child(1){width: 75%;height: 450px;background:464646;}
 #contents .container>ul>li:nth-child(2){height: 450px;}
 #contents .container>ul>li:nth-child(3){background: #00163b;}
