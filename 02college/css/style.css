@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+body{font-family: 'Nanum Gothic', sans-serif;}
 /*header*/
 #header{background:transparent;height:180px;}
 .util_menu_wrap{background: #0044AF;}
@@ -32,9 +32,10 @@
 
 .gnb{background: #fff;width: 1200px;margin:0 auto;position: relative;}
 .gnb .logo{float: left;position: absolute;left:0;top:38px;}
-.gnb .menu{float: right;position: absolute;top:25px;width: 700px;right:20px}
+.gnb .menu{float: right;position: absolute;top:45px;width: 700px;right:20px}
+.gnb .menu ul{float:left;}
 .gnb .menu li{float: left; width: 120px;text-align:left;line-height:40px;font-size:17px;}
-
+.gnb .menu img{display:block;width: 90px;height: 46px;float:right;}
 
 /*contents*/
 #contents{
@@ -89,8 +90,10 @@
 				width: 100%;height:45px;opacity: 0.8} 
 .container .txtbox6 p{color:white;text-align: center;padding: 10px;font-size:17px;margin-top:0;font-weight: bold;}	
 .container .ptxt08{position:relative;}
-.container .ptxt08 p{color:#fd503f;font-size: 30px;font-weight: bold;font-family:sans-serif;}
-.container .txtbox7{position:absolute;width:400px;top:20px;height: 86px;left: 20px;}
+
+.container .ptxt09{font-weight:lighter;color:#fd503f;font-size:32px;} 
+.container .ptxt10{color:#fd503f;font-size: 40px;font-weight: bold;margin-top:15px;}
+.container .txtbox7{position:absolute;width:490px;top:20px;height: 86px;left: 20px;}
 #contents .container>ul>li:nth-child(2n){_background:pink;}
 #contents .container>ul>li:nth-child(1){width: 75%;height: 450px;background:464646;}
 #contents .container>ul>li:nth-child(2){height: 450px;}
