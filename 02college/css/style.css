@@ -74,7 +74,8 @@ body{font-family: 'Nanum Gothic', sans-serif;}
 .container .iconbox{color:white;width:198.34px;margin: 0 auto;}
 .container .iconbox li{margin-right:10px;width:59.44px;font-size:13px;}
 .container .iconbox li:last-child{margin-right:0;}
-.container .box4{}
+.container .box4{background-image:url(../images/college2-1.png)color:#fff;
+	background-repeat:no-repeat;}
 .container .ptxt04{color:white;margin-top:10px;margin-left:20px;font-weight: bold;font-size:20px;} 
 .container .txt3 {color:white;margin-left: 20px;font-size: 13px;width:170px;height: 110px;float: left;}
 .container .txt3:before{content:"";display: block;width: 260px;height: 2px;background:white;margin-bottom: 20px;margin-top: 10px;}
@@ -94,6 +95,9 @@ body{font-family: 'Nanum Gothic', sans-serif;}
 .container .ptxt09{font-weight:lighter;color:#fd503f;font-size:32px;} 
 .container .ptxt10{color:#fd503f;font-size: 40px;font-weight: bold;margin-top:15px;}
 .container .txtbox7{position:absolute;width:490px;top:20px;height: 86px;left: 20px;}
+.container .txtbox8{background: #ff4538;width: 165px;position:absolute; bottom:50px;left: 35px;color: white;font-weight: bold;}
+.container .txtbox8 p{text-align: center;margin:0 auto;line-height: 40px; }
+.container .txtbox8 p{}
 #contents .container>ul>li:nth-child(2n){_background:pink;}
 #contents .container>ul>li:nth-child(1){width: 75%;height: 450px;background:464646;}
 #contents .container>ul>li:nth-child(2){height: 450px;}
