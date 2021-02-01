@@ -87,10 +87,10 @@
 
 .container .txtbox6{position: absolute;left: 50%;bottom:0;transform:translate(-50%);background: #000;
 				width: 100%;height:45px;opacity: 0.8} 
-.container .txtbox6 p{color:white;text-align: center;padding: 10px;font-size:17px;}	
+.container .txtbox6 p{color:white;text-align: center;padding: 10px;font-size:17px;margin-top:0;font-weight: bold;}	
 .container .ptxt08{position:relative;}
-.container .ptxt08 p{color:orange;font-size: 30px;position:absolute;width: 380px;top:0;left:0px;}
-.container .txtbox7{}
+.container .ptxt08 p{color:#fd503f;font-size: 30px;font-weight: bold;font-family:sans-serif;}
+.container .txtbox7{position:absolute;width:400px;top:20px;height: 86px;left: 20px;}
 #contents .container>ul>li:nth-child(2n){_background:pink;}
 #contents .container>ul>li:nth-child(1){width: 75%;height: 450px;background:464646;}
 #contents .container>ul>li:nth-child(2){height: 450px;}
