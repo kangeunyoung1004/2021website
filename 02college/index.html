@@ -15,9 +15,23 @@
 
 
 	<script>
-		$(document).ready(function(){
-			$(".slider").bxSlider();
-		});
+		$(document).ready(function(){ //jquery start
+
+			var mySlider = $(".slider").bxSlider({
+				auto:true,
+				// mode:"fade",
+				controls:false,
+				pager:false
+			});
+
+   		 //$(".nextBtn").clcick(function(){ 실행문; });
+
+			$(".nextBtn").click(function(){
+				mySlider.goToNextSlide();
+			});
+			$(".prevBtn").click(function(){
+				mySlider.goToPrevSlide();
+			});
 
 	</script>
 </head>
@@ -61,15 +75,7 @@
 	<div id="contents"> <!-- 100% -->
 		<section class="title"> <!-- 1200 mato -->
 			<style>
-				.sliderWrap{width: 1000px;margin: 0 auto}
-  .sliderWrap .slider li img{width: 100%;}
-
-  .bx-wrapper {
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: 0 none;
-  }
+				
 			</style>
 			<div class="textWrap">
 			<h2>함께 나누며 세상을 이끌어</h2>
