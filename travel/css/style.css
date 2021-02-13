@@ -26,14 +26,13 @@ background-position: center;display:block;width: 100%;}
 
 /*#contents*/
 
-#contents .container{width: 980px;height: 980px;margin: 0 auto;position: relative;}
+#contents .container{width: 980px;height:1200px;margin: 0 auto;position: relative;}
+#contents .bg_wrap{position: absolute;top:0;right: 0;display: block;z-index: -100;}
+#contents .titlebox{background:gray;width:355px;height: 163px;position: absolute;z-index:1;top:30px;right: 120px;}
+#contents .titlebox h2{color:#000;font-size:50px;}
+
 #contents .tabbox{background: white;width: 480px;height: 300px;margin-top:62px;}
-
-#contents .bgimg01{float: right;display: block;}
-
 #contents li{height: 25%;width:137px;text-align:center;}
-#contents .bg_wrap{position: absolute;top:0;right: 0;}
-
 #contents .li01{background: white;}
 #contents .li01 p{font-weight: bold;padding:30px;}
 #contents .li02{background: #006599;border-bottom: 2px solid #0078a7;}
@@ -43,13 +42,13 @@ background-position: center;display:block;width: 100%;}
 #contents .li03 p{color: white;font-weight: bold;padding: 30px;}
 #contents .li04{background: #0099cb;border-top: 2 solid #0087bf;}
 #contents .li04 p{color: white;font-weight: bold;padding: 30px;}
-#contents .contents01{width: 480px;height: 230px;margin-top:20px;}
-#contents .contents01 li{width: 230px;height: 230px;background: skyblue;float:left;margin-right:20px;}
+#contents .contents01{width: 480px;height: 230px;margin-top:15px;}
+#contents .contents01 li{width: 232.5px;height: 232.5px;float:left;margin-right:15px;}
 #contents .contents01 li:last-child{margin-right: 0;}
-#contents .contents02{width: 980px;height: 230px;margin-top:20px;}
-#contents .contents02 li{width: 230px;height: 230px;background:skyblue;margin-right:20px;float: left;}
+#contents .contents02{width: 980px;height: 232.5px;margin-top:15px;}
+#contents .contents02 li{width: 232.5px;height: 232.5px;margin-right:15px;float: left;}
 #contents .contents02 li:last-child{margin-right:0;}
-#contents .contents03{width: 980px;height: 230px;margin-top:20px;}
-#contents .contents03 li{width: 230px;height: 230px;background: skyblue;margin-right: 20px;float: left;}
+#contents .contents03{width: 980px;height: 232.5px;margin-top:15px;}
+#contents .contents03 li{width: 232.5px;height: 232.5px;margin-right: 15px;float: left;}
 #contents .contents03 li:last-child{margin-right: 0;}
 
