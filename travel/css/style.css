@@ -35,15 +35,20 @@ background-position: center;display:block;width: 100%;}
 
 #contents .tabbox{background: white;width: 480px;height: 300px;margin-top:62px;}
 #contents li{height: 25%;width:137px;text-align:center;}
-#contents .li01{background: white;}
-#contents .li01 p{font-weight: bold;padding:30px;}
-#contents .li02{background: #006599;border-bottom: 2px solid #0078a7;}
+#contents .li01{background: #006599;border-bottom:1px solid #0078a7;}
+#contents .li01:hover{background:white;}
+#contents .li01 p{font-weight: bold;padding:30px;color:white;}
+#contents .li01 p:hover{color:#000;cursor:pointer;}
+#contents .li02{background: #006599;border-bottom: 2px solid #00a7d4;border-top:2px solid #015287;}
 #contents .li02 p{color: white;font-weight: bold;padding: 30px;}
-
-#contents .li03{background: #0099cb;border-top: 2px solid #015287;border-bottom: 2px solid #00a7d4;}
+#contents .li02 p:hover{color: #000;background: white;cursor:pointer;}
+#contents .li03{background: #0099cb;border-top: 2px solid #015287; ;border-bottom: 2px solid #00a7d4;}
 #contents .li03 p{color: white;font-weight: bold;padding: 30px;}
+#contents .li03 p:hover{background: white;color:#000;cursor:pointer;}
 #contents .li04{background: #0099cb;border-top: 2 solid #0087bf;}
-#contents .li04 p{color: white;font-weight:bold;padding: 30px;}
+#contents .li04 p{color:white;font-weight:bold;padding: 30px;cursor:pointer;}
+#contents .li04:hover{background: white;}
+#contents .li04 p:hover{cursor: pointer;color: #000;}
 
 #contents .contents01 img{display: block;}
 #contents .contents01{width: 480px;height: 230px;margin-top:15px;position: relative;}
