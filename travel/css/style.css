@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /*header*/
 #header .top{background-image: url(../images/air.png);
 background-repeat: no-repeat;background-size: cover;
@@ -14,8 +15,8 @@ background-position: center;display:block;width: 100%;}
 #header .searchBtn{position: absolute;top:50%;right: 15px;transform:translateY(-50%);width: 20px;height: 20px;
 					border:0 none;
 					background-image:url(../images/search.jpg);
-				   background-repeat: no-repeat;background: center;
-				   text-indent:-9999px;} 
+				   background-repeat: no-repeat;background-position: center;
+				   text-indent:-9999px;z-index:9999;} 
 #header .topnumber{margin-top:25px;color: white;font-weight: bold;
 				   margin-right:200px;font-size: 25px;float: right;}
 #header .navwrap{width: 100%;background:#f3f3f3;border-bottom: 4px solid #0e73a7;}
@@ -25,19 +26,10 @@ background-position: center;display:block;width: 100%;}
 					font-size:16px;position: relative;}
 
 #header .navwrap li:first-child{border-left:2px solid #e7e7e7;}
-#header .navmenu a{cursor:pointer;}
-#header .bar1{position: absolute;width: 0;height:5px;background:#804ada;bottom:0;transition:0.5s;}
-#header .navwrap:hover .bar1{width: 100%;}
-#header .bar2{position: absolute;width: 0;height:5px;background:#804ada;bottom:0;transition: 0.5s;}
-#header .navwrap:hover .bar2{width: 100%;}
-#header .bar3{position: absolute;width: 0;height:5px;background:#804ada;bottom:0;transition:0.5s;}
-#header .navwrap:hover .bar3{width: 100%;}
-#header .bar4{position: absolute;width: 0;height:5px;background:#804ada;bottom:0;transition:0.5s;}
-#header .navwrap:hover .bar4{width: 100%;}
-#header .bar5{position: absolute;width: 0;height:5px;background:#804ada;bottom:0;transition:0.5s;}
-#header .navwrap:hover .bar5{width: 100%;}
-#header .bar6{position: absolute;width: 0;height:5px;background:#804ada;bottom:0;transition:0.5s;}
-#header .navwrap:hover .bar6{width: 100%;}
+#header .navmenu a{display: block;position: relative;z-index:3}
+#header .bar{position: absolute;width: 0;height:100%;background:#069bfa;bottom:0;transition:0.5s;}
+#header .navwrap li:hover .bar{width: 100%;}
+#header .navwrap li:hover a{color:white;}
 
 /*#contents*/
 
