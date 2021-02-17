@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*header*/
+#header .top{background-image: url(../images/air.png);
+background-repeat: no-repeat;background-size: cover;
+background-position: center;display:block;width: 100%;}
+#header .topnav{margin: 0 auto;width: 980px;position: relative;}
+#header h1{float:left;margin-top: 10px;}
+#header .searchwrap{_background: blue;position: absolute;top: 25px;left: 240px;}
+#header form{position: relative;}
+#header .searchTitle{display: block;position: absolute;width: 60px;height: 20px;
+					 left:10px;top: 5px;z-index:2}
+#header .searchInp{position: relative;width: 297px;height: 30px;text-indent: 80px;
+	font-size:14px;border:2px solid #000;border-radius:15px; }
+#header .searchBtn{position: absolute;top:50%;right: 15px;transform:translateY(-50%);width: 20px;height: 20px;
+					border:0 none;
+					background-image:url(../images/search.jpg);
+				   background-repeat: no-repeat;background-position: center;
+				   text-indent:-9999px;z-index:9999;} 
+#header .topnumber{margin-top:25px;color: white;font-weight: bold;
+				   margin-right:200px;font-size: 25px;float: right;}
+#header .navwrap{width: 100%;background:#f3f3f3;border-bottom: 4px solid #0e73a7;}
+#header .navmenu{width: 980px;margin: 0 auto;}
+#header .navwrap li{border-right:2px solid #e7e7e7;
+					float: left;width:16.33%;line-height: 45px;font-weight: bold;text-align: center;
+					font-size:16px;position: relative;}
+
+#header .navwrap li:first-child{border-left:2px solid #e7e7e7;}
+#header .navmenu a{display: block;position: relative;z-index:3}
+#header .bar{position: absolute;width: 0;height:100%;background:#069bfa;bottom:0;transition:0.5s;}
+#header .navwrap li:hover .bar{width: 100%;}
+#header .navwrap li:hover a{color:white;}
+
+/*#contents*/
+
+#contents .container{width: 980px;height:1150px;margin: 0 auto;position: relative;}
+#contents .bg_wrap{background: blue;position: absolute;top:0px;right: 0;display: block;z-index: -100;}
+#contents .bg_wrap img{position:absolute;display: block;right: -85px;top:85px;}
+#contents .titlebox{width:355px;height: 163px;position: absolute;z-index:1;top:20px;right: 120px;}
+#contents .titlebox h2{color:#000;font-size:60px;}
+#contents .titlebox h3{font-size:27px;margin-top:10px;}
+
+#contents .tabbox{background: white;width: 480px;height: 300px;margin-top:62px;}
+#contents li{height: 25%;width:137px;text-align:center;}
+#contents .li01{background: #006599;border-bottom:1px solid #0078a7;}
+#contents .li01:hover{background:white;}
+#contents .li01 p{font-weight: bold;padding:30px;color:white;}
+#contents .li01 p:hover{color:#000;cursor:pointer;}
+#contents .li02{background: #006599;border-bottom: 2px solid #00a7d4;border-top:2px solid #015287;}
+#contents .li02 p{color: white;font-weight: bold;padding: 30px;}
+#contents .li02 p:hover{color: #000;background: white;cursor:pointer;}
+#contents .li03{background: #0099cb;border-top: 2px solid #015287; ;border-bottom: 2px solid #00a7d4;}
+#contents .li03 p{color: white;font-weight: bold;padding: 30px;}
+#contents .li03 p:hover{background: white;color:#000;cursor:pointer;}
+#contents .li04{background: #0099cb;border-top: 2 solid #0087bf;}
+#contents .li04 p{color:white;font-weight:bold;padding: 30px;cursor:pointer;}
+#contents .li04:hover{background: white;}
+#contents .li04 p:hover{cursor: pointer;color: #000;}
+
+#contents .contents01 img{display: block;}
+#contents .contents01{width: 480px;height: 230px;margin-top:15px;position: relative;}
+#contents .contents01 li{width: 232.5px;height: 232.5px;float:left;margin-right:15px;}
+#contents .contents01txtbox{width: 232px;background:#152630;position: absolute;bottom:0;opacity:0.9;} 
+#contents .contents01txtbox p{padding:15px;font-weight: bold;color:white;}
+#contents .contents01txtbox span{font-weight:lighter;color:#5fae5b;}
+
+#contents .contents02txtbox{width: 232px;background:#152630;position: absolute;bottom:0;opacity:0.9;} 
+#contents .contents02txtbox p{padding:15px;font-weight: bold;color:white;}
+#contents .contents02txtbox span{font-weight:lighter;color:#5fae5b;}
+
+#contents .contents01 li:last-child{margin-right:0;}
+#contents .contents02{width: 980px;height: 232.5px;margin-top:15px;}
+#contents .contents02 li{width: 232.5px;height: 232.5px;margin-right:15px;float: left;}
+#contents .contents02 li:last-child{margin-right:0;}
+#contents .contents03{width: 980px;height: 232.5px;margin-top:15px;}
+#contents .contents03 li{width: 232.5px;height: 232.5px;margin-right: 15px;float: left;}
+#contents .contents03 li:last-child{margin-right: 0;}
+
+#footer .ft01{font-size:14px;margin-top:20px;margin-bottom: 10px;font-weight: bold;}
+#footer .ft02{font-size:12px;}
+
+
