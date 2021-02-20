@@ -27,7 +27,7 @@ background-position: center;display:block;width: 100%;}
 
 #header .navwrap li:first-child{border-left:2px solid #e7e7e7;}
 #header .navmenu a{display: block;position: relative;z-index:3}
-#header .bar{position: absolute;width: 0;height:100%;background:#069bfa;bottom:0;transition:0.5s;}
+#header .bar{position: absolute;width: 0;height:100%;background:#069bfa;bottom:0;transition:0.8s;}
 #header .navwrap li:hover .bar{width: 100%;}
 #header .navwrap li:hover a{color:white;}
 
