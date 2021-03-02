@@ -67,15 +67,19 @@ background-position: center;display:block;width: 100%;}
 #contents .contents02txtbox{width: 232px;background:#152630;position: absolute;bottom:0;opacity:0.9;} 
 #contents .contents02txtbox p{padding:15px;font-weight: bold;color:white;}
 #contents .contents02txtbox span{font-weight:lighter;color:#5fae5b;}
-
 #contents .contents01 li:last-child{margin-right:0;}
-#contents .contents02{width: 980px;height: 232.5px;margin-top:15px;}
+#contents .contents02{width: 980px;height: 232.5px;margin-top:15px;position: relative;}
 #contents .contents02 li{width: 232.5px;height: 232.5px;margin-right:15px;float: left;}
 #contents .contents02 li:last-child{margin-right:0;}
-#contents .contents03{width: 980px;height: 232.5px;margin-top:15px;}
-#contents .contents03 li{width: 232.5px;height: 232.5px;margin-right: 15px;float: left;}
-#contents .contents03 li:last-child{margin-right: 0;}
 
+
+#contents .contents03{width: 980px;margin-top:15px;}
+#contents .contents03 li{width: 232.5px;height: 232.5px;margin-right: 15px;float: left;}
+#contents .contents03 img{position: relative;}
+#contents .contents03 li:last-child{margin-right: 0;}
+#contents .contents03txtbox{width: 232.5px;background:#529351;position:absolute;bottom:0;opacity:0.9;padding: 10px;}
+#contents .contents03txtbox p{color:white;font-weight:bold;}
+#contents .contents03txtbox span{color:white;}
 #footer .ft01{font-size:14px;margin-top:20px;margin-bottom: 10px;font-weight: bold;}
 #footer .ft02{font-size:12px;}
 
