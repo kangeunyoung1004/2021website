@@ -15,24 +15,35 @@
 
 
 	<script>
-		$(document).ready(function(){ //jquery start
-
-			var mySlider = $(".slider").bxSlider({
-				auto:true,
-				// mode:"fade",
+		$(document).ready(function(){
+			var bxSlider = $(".slider").bxSlider({
+				auto:false,
 				controls:false,
-				pager:false
-			});
-
-   		 //$(".nextBtn").clcick(function(){ 실행문; });
-
+			});	
 			$(".nextBtn").click(function(){
-				mySlider.goToNextSlide();
+				bxSlider.goToNextSlide();
 			});
 			$(".prevBtn").click(function(){
-				mySlider.goToPrevSlide();
+				bxSlider.goToPrevSlide();
 			});
-
+			$(".slider02").bxSlider({
+				controls:false,
+				auto:true
+			});
+			var mySlider2 = $(".slider03").bxSlider({
+				controls:false,
+				auto:true,
+				pager:false,
+				mode:"vertical",
+			});
+			$(".nextB").click(function(){
+				bxSlider.goToNextSlide();
+			});
+			$(".prevB").click(function(){
+				bxSliders.goToPrevSlide();
+			});
+			
+		});
 	</script>
 </head>
 <body>
@@ -97,7 +108,25 @@
 			<ul class="clearfix">
 				<!-- 75% --><li>
 					<ul class="slider">
-						<li>
+						<li class="bxSlider">
+							<img src="images/bg1.png" alt="bg">
+							<div class="sliderTxt">
+								<p><span>한국</span>에서<br><span>시작</span>하는<br>새로운<span>꿈</span></p>
+								<div class="txtbox1">
+								<a href="#">자세히보기</a>
+								</div>
+							</div>
+						</li>
+						<li class="bxSlider">
+							<img src="images/bg1.png" alt="bg">
+							<div class="sliderTxt">
+								<p><span>한국</span>에서<br><span>시작</span>하는<br>새로운<span>꿈</span></p>
+								<div class="txtbox1">
+								<a href="#">자세히보기</a>
+								</div>
+							</div>
+						</li>
+						<li class="bxSlider">
 							<img src="images/bg1.png" alt="bg">
 							<div class="sliderTxt">
 								<p><span>한국</span>에서<br><span>시작</span>하는<br>새로운<span>꿈</span></p>

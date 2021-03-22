@@ -1,6 +1,7 @@
 @charset "utf-8";
 body{font-family: 'Nanum Gothic', sans-serif;}
 /*header*/
+
 #header{background:transparent;height:180px;}
 .util_menu_wrap{background: #0044AF;}
 .util_menu{width: 1200px;margin: 0 auto}
@@ -38,6 +39,24 @@ body{font-family: 'Nanum Gothic', sans-serif;}
 .gnb .menu img{display:block;width: 90px;height: 46px;float:right;}
 
 /*contents*/
+
+/*Slider*/
+       .slider img{display: block;width: 100%;}
+
+		.bx-wrapper{-moz-box-shadow:none;
+			-webkit-box-shadow:none;
+			box-shadow:none;
+			border:none;
+			background: #2d1e1e;
+		}
+		.bx-wrapper .bx-pager{
+			bottom:30px;
+		}
+		.bx-wrapper .bx-pager.bx-default-pager a.active{
+			background: #fff;
+		}
+		.bx-wrapper .bx-pager.bx-default-pager a{background: #f00;}
+		.container{width: 900px;margin:0 auto}
 #contents{
 	_height: 1300px;/*나중에 높이삭제*/
 	background-image:url(../images/dot.png),url(../images/main_bg.jpg);
